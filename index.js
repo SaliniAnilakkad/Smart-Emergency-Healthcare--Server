@@ -670,6 +670,12 @@ let client = new Client({
       "--disable-dev-tools",
       "--disable-extensions",
     ],
+    executablePath: chromePath,
+    timeout: 180000, // Increased timeout to 180 seconds
+    handleSIGINT: false,
+    handleSIGTERM: false,
+    handleSIGHUP: false,
+    dumpio: true, // Enable debug output for Puppeteer
   },
 });
 
