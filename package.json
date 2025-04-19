@@ -1,0 +1,36 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^5.1.0",
+    "firebase-admin": "^13.2.0",
+    "nodemon": "^3.1.9",
+    "puppeteer": "^23.0.2",
+    "qrcode": "^1.5.4",
+    "qrcode-terminal": "^0.12.0",
+    "socket.io": "^4.8.1",
+    "whatsapp-web.js": "^1.27.0",
+    "winston": "^3.17.0",
+    "ws": "^8.18.0"
+  },
+  "resolutions": {
+    "whatsapp-web.js/puppeteer": "23.0.2",
+    "whatsapp-web.js/puppeteer-core": "23.0.2",
+    "whatsapp-web.js/ws": "8.18.0",
+    "puppeteer-core/ws": "8.18.0",
+    "engine.io/ws": "8.18.0",
+    "socket.io-adapter/ws": "8.18.0",
+    "rimraf": "6.0.1"
+  }
+}
